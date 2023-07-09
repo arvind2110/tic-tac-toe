@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+#main-container {
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-container-left {
+    width: 20vw;
+}
+
+#palyers-list ol {
+    list-style: none;
+}
+
+#game-statistics ol {
+    list-style: none;
+}
+
+#game-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#game-controls button {
+    cursor: pointer;
+}
+
+#game-controls button:hover {
+    color: #000000;
+}
+
+#game-controls button:disabled {
+    color: #ff0000;
+    cursor: auto;
+}
+
+.game-container-content {
+    width: 50vw;
+}
+
+#tic-tac-toe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tic-tac-toe-boxes {
+    width: 35vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#tic-tac-toe .tic-tac-toe-boxes .box {
+    cursor: pointer;
+    width: 10vw;
+    height: 10vw;
+    font-size: 5rem;
+    background-color: #ffffff;
+}
+
+#box0 {
+    border-top: 0;
+    border-left: 0;
+}
+
+#box1 {
+    border-top: 0;
+}
+
+#box2 {
+    border-top: 0;
+    border-right: 0;
+}
+
+#box3 {
+    border-left: 0;
+}
+
+#box5 {
+    border-right: 0;
+}
+
+#box6 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#box7 {
+    border-bottom: 0;
+}
+
+#box8 {
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.win {
+    color: #ffffff;
+    background-color: lawngreen !important;
+}
+
+.game-container-right {
+    width: 20vw;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.border {
+    border: 2px solid #000000;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1023px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 500px) {
+    h1 {
+        font-size: 1rem;
+    }
+    
+    h2 {
+        font-size: 0.75rem;
+    }
+    
+    h3 {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 300px) {
+    h1 {
+        font-size: 0.75rem;
+    }
+    
+    h2 {
+        font-size: 0.5rem;
+    }
+    
+    h3 {
+        font-size: 0.35rem;
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tick Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="main-container">
+        <header class="text-center margin-bottom-10 border padding-5">
+            <h1>Tic-Tac-Toe Game</h1>
+        </header>
+        <main id="game-container" class="border margin-top-10">
+            <section class="game-container-left border margin-10 padding-5">
+                <h3 class="padding-5">Players List</h3>
+                <div id="palyers-list" class="padding-5">
+                    <ol>
+                        <li class="border padding-5">Player X</li>
+                        <li class="padding-5">Player O</li>
+                    </ol>
+                </div>
+            </section>
+            <section class="game-container-content border margin-10 padding-5">
+                <h3 class="text-center padding-5">Game Panel</h3>
+                <div id="tic-tac-toe" class="margin-top-10">
+                    <div class="tic-tac-toe-boxes">
+                        <button id="box0" class="box"></button>
+                        <button id="box1" class="box"></button>
+                        <button id="box2" class="box"></button>
+                        <button id="box3" class="box"></button>
+                        <button id="box4" class="box"></button>
+                        <button id="box5" class="box"></button>
+                        <button id="box6" class="box"></button>
+                        <button id="box7" class="box"></button>
+                        <button id="box8" class="box"></button>
+                    </div>
+                </div>
+            </section>
+            <section class="game-container-right border margin-10 padding-5">
+                <h3 class="padding-5">Game Statistics</h3>
+                <div id="game-statistics" class="padding-5">
+                    <ol>
+                        <li id="player-x-wins" class="padding-5">Player X : 0</li>
+                        <li id="player-o-wins" class="padding-5">Player O : 0</li>
+                        <li id="player-draw-matches" class="padding-5">Draw Matches : 0</li>
+                        <li id="game-result" class="padding-5 border">Game Status : Yet to start!</li>
+                    </ol>
+                </div>
+                <div id="game-controls" class="padding-5">
+                    <button id="start" class="border padding-5" title="Click to start the game.">Start</button>
+                    <button id="reset" class="border padding-5" title="Click to rest / stop the game.">Stop / Reset</button>
+                    <button id="reset-all" class="border padding-5" title="Click to rest all / stop the game.">Stop / Reset All</button>
+                </div>
+            </section>
+        </main>
+        <footer class="text-center border padding-5 border">
+            <h3>Thank You!!!</h3>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
